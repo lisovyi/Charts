@@ -31,7 +31,7 @@ open class LineRadarRenderer: LineScatterCandleRadarRenderer
         // filled is usually drawn with less alpha
         context.setAlpha(fillAlpha)
         
-        fill.fillPath(context: context, rect: viewPortHandler.contentRect)
+        fill.fillPath(context: context, rect: viewPortHandler.contentRect, spline: path)
         
         context.restoreGState()
     }
