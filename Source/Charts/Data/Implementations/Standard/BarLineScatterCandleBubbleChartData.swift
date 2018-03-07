@@ -13,7 +13,7 @@ import Foundation
 
 open class BarLineScatterCandleBubbleChartData: ChartData
 {
-    public required init()
+    public override required init()
     {
         super.init()
     }

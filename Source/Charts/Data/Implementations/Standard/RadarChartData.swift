@@ -29,7 +29,7 @@ open class RadarChartData: ChartData
         self.labels = labels
     }
     
-    public required init()
+    public override required init()
     {
         super.init()
     }
